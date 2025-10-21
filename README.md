@@ -2,16 +2,19 @@
 
 # MODULE-1-
 Module 1 respository for lab
+
 # C Programming Practice Programs
 
-1.# Program: Display Character from ASCII Value
+# 1.Program: Display Character from ASCII Value
 
-*Aim:*  
+**Aim:**
+
 To write a C program that reads an integer value and displays its corresponding ASCII character.
 
 
 
-*Algorithm:*  
+**Algorithm:**  
+
 1. Start the program.  
 2. Declare an integer variable num.  
 3. Read the integer input from the user using scanf().  
@@ -19,8 +22,9 @@ To write a C program that reads an integer value and displays its corresponding 
 5. End the program.
 
 
-*Source Code:*
-c
+**Source Code:**
+
+```c
 #include <stdio.h>
 int main()
 {
@@ -30,19 +34,19 @@ int main()
     return 0;
 }
 
-*output*
+# output
 
 <img width="780" height="199" alt="image" src="https://github.com/user-attachments/assets/ed1ffff5-9456-476c-b00b-87bcc8810f8a" />
 
 
 
-*Result:*
+**Result:**
 The program successfully prints the character corresponding to the given ASCII value.
 ---
 
-2.# Program: Check if Number is Equal to 000
+# 2.Program: Check if Number is Equal to 000
 
-*Aim:*  
+**Aim:**  
 To write a C program that checks whether the input number is equal to 000.
 
 
