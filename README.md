@@ -33,6 +33,7 @@ int main()
     printf("Character of ASCII Value %d is %c", num, num);
     return 0;
 }
+```
 
 # output
 
@@ -49,9 +50,8 @@ The program successfully prints the character corresponding to the given ASCII v
 **Aim:**  
 To write a C program that checks whether the input number is equal to 000.
 
+**Algorithm:**  
 
-
-*Algorithm:*  
 1. Start the program.  
 2. Declare an integer variable num.  
 3. Read an integer input from the user using scanf().  
@@ -60,10 +60,9 @@ To write a C program that checks whether the input number is equal to 000.
    - Otherwise → print "Number is NOT equal to 000".  
 5. End the program.
 
-
-
-*Source Code:*
-c
+ 
+**Source Code:**
+```c
 #include <stdio.h>
 int main()
 {
@@ -75,24 +74,28 @@ int main()
         printf("Number is NOT equal to 000");
     return 0;
 }
+```
 
-*output*
+**output**
 
 <img width="698" height="250" alt="image" src="https://github.com/user-attachments/assets/5d7c460d-0b7b-4d8b-8d71-7134dd76bf13" />
 
 
 
-*Result:*
+**Result:**
+
 The program correctly checks whether the entered number is 000 and displays the appropriate message.
 
 ---
-3.# Program: Simple and Compound Interest Calculation
+# 3.Program: Simple and Compound Interest Calculation
 
-*Aim:*  
+**Aim:**  
+
 To write a C program that calculates both the Simple Interest (SI) and Compound Interest (CI) for a given principal, rate of interest, and time period.
 
 
-*Algorithm:*  
+**Algorithm:**  
+
 1. Start the program.  
 2. Declare float variables principle, Year, rate, SI, and CI.  
 3. Read input values for principal, time (in years), and rate of interest using scanf().  
@@ -103,8 +106,9 @@ To write a C program that calculates both the Simple Interest (SI) and Compound 
 
 
 
-*Source Code:*
-c
+**Source Code:**
+
+```c
 #include <stdio.h>
 #include <math.h>
 
@@ -124,24 +128,25 @@ int main()
  
  return 0;
 }
+```
 
-*output*
+**output**
 
 <img width="736" height="140" alt="image" src="https://github.com/user-attachments/assets/8e45d22b-70b2-4fbb-af6a-c0ce5f74caa6" />
 
 
-*Result:*
+**Result:**
 
 The program correctly calculates and displays the Simple Interest and Compound Interest for the given inputs.
 ---
-4.# Program: Arithmetic Operations Using Switch Statement
+# 4.Program: Arithmetic Operations Using Switch Statement
 
-*Aim:*  
+**Aim:**
+
 To write a C program that performs basic arithmetic operations (+ and -) on two numbers using a switch statement.
 
+**Algorithm:** 
 
-
-*Algorithm:*  
 1. Start the program.  
 2. Declare integer variables num1 and num2 for storing numbers, and a character variable op for the operator.  
 3. Read input values for num1, op, and num2 using scanf().  
@@ -153,8 +158,9 @@ To write a C program that performs basic arithmetic operations (+ and -) on two 
 
 
 
-*Source Code:*
-c
+**Source Code:**
+
+```c
 #include <stdio.h>
 int main()
 {
@@ -174,23 +180,27 @@ int main()
     }
     return 0;
 }
+```
 
-*output*
+**output**
 
 <img width="459" height="294" alt="image" src="https://github.com/user-attachments/assets/36dc10bd-ebe5-47ae-970e-c0e5b78a1677" />
 
 
-*Result:*
+**Result:**
+
 The program successfully performs addition or subtraction based on the operator entered by the user and displays the correct result.
 ---
 
-5.# Program: Grade Evaluation Based on Marks
+# 5.Program: Grade Evaluation Based on Marks
 
-*Aim:*  
+**Aim:**
+
 To write a C program that reads a student's marks and prints the corresponding grade message.
 
 
-*Algorithm:*  
+**Algorithm:** 
+
 1. Start the program.  
 2. Declare an integer variable marks.  
 3. Read the marks from the user using scanf().  
@@ -205,8 +215,9 @@ To write a C program that reads a student's marks and prints the corresponding g
 
 
 
-*Source Code:*
-c
+**Source Code:**
+
+```c
 #include <stdio.h>
 int main()
 {
@@ -226,11 +237,12 @@ int main()
 
     return 0;
 }
+```
 
-*output*
+**output**
 
 <img width="475" height="291" alt="image" src="https://github.com/user-attachments/assets/feb0daa9-8d10-43f7-a525-73cf950872b9" />
 
-*Result:*
+**Result:**
 
 The program correctly evaluates the marks and displays the corresponding grade message.
